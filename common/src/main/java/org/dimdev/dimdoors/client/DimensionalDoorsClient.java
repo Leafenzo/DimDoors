@@ -112,8 +112,9 @@ public class DimensionalDoorsClient {
 			@Override
 			public ResourceLocation getTextureLocation(MaskEntity entity) {
 				return new ResourceLocation("blep");
-			}
+			} // hehehe :3
 		});
+		consumer.accept(ModEntityTypes.PATROL_NODE.get(), PatrolNodeRenderer::new);
 	}
 
 	@Environment(EnvType.CLIENT)

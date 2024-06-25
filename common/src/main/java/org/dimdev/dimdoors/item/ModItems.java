@@ -10,6 +10,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.*;
 import org.dimdev.dimdoors.DimensionalDoors;
+import org.dimdev.dimdoors.api.util.Path;
 import org.dimdev.dimdoors.block.ModBlocks;
 import org.dimdev.dimdoors.entity.ModEntityTypes;
 import org.dimdev.dimdoors.fluid.ModFluids;
@@ -105,7 +106,9 @@ public final class ModItems {
 	public static final RegistrySupplier<Item> GARMENT_OF_REALITY_LEGGINGS = registerRegular("garment_of_reality_leggings", properties -> new ArmorItem(ModArmorMaterials.GARMENT_OF_REALITY, ArmorItem.Type.LEGGINGS, properties));
 
 	public static final RegistrySupplier<Item> GARMENT_OF_REALITY_BOOTS = registerRegular("garment_of_reality_boots", properties -> new ArmorItem(ModArmorMaterials.GARMENT_OF_REALITY, ArmorItem.Type.BOOTS, properties));
-	
+
+	public static final RegistrySupplier<Item> PATHING_DEVICE = registerRegular("pathing_device", properties -> new PathingDeviceItem(properties.stacksTo(1)));
+
 	public static final Set<Item> DOOR_ITEMS = new HashSet<>();
 
 	public static DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(DimensionalDoors.MOD_ID, Registries.CREATIVE_MODE_TAB);

@@ -12,7 +12,7 @@ import net.minecraft.world.level.Level;
 //import software.bernie.geckolib3.core.manager.AnimationData;
 //import software.bernie.geckolib3.core.manager.AnimationFactory;
 
-public class MaskEntity extends PathfinderMob /*implements IAnimatable*/ { // TODO
+public class MaskEntity extends PatrollingMob /*implements IAnimatable*/ { // TODO
 //    private AnimationFactory factory = new AnimationFactory(this);
 
     protected MaskEntity(EntityType<? extends MaskEntity> entityType, Level world) {

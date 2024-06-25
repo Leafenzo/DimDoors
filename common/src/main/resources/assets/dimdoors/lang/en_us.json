@@ -236,6 +236,14 @@
   "fluid.dimdoors.eternal_fabric": "Eternal Fabric",
 
   "entity.dimdoors.monolith": "Monolith",
+  "entity.dimdoors.patrol_node": "Patrol Node",
+  "entity.dimdoors.mask": "Presence",
+  "entity.dimdoors.cyclop_mask": "Presence",
+  "entity.dimdoors.echo_mask": "Presence",
+  "entity.dimdoors.enlightened_mask": "Presence",
+  "entity.dimdoors.foresight_mask": "Presence",
+  "entity.dimdoors.sculking_mask": "Presence",
+  "entity.dimdoors.black_mask": "Presence",
 
   "commands.dimteleport.usage": "/dimteleport <dimension> <x> <y> <z> [yaw] [pitch]",
   "commands.fabricconvert.usage": "/fabricconvert",
