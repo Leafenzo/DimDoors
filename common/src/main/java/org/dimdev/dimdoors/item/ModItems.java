@@ -72,7 +72,7 @@ public final class ModItems {
 
 	public static final RegistrySupplier<Item> WORLD_THREAD_BOOTS = registerRegular("world_thread_boots", properties -> new ArmorItem(ModArmorMaterials.WORLD_THREAD, ArmorItem.Type.BOOTS, properties));
 
-	public static final RegistrySupplier<Item> MASK_WAND = registerRegular("mask_wand", properties -> new MaskWandItem(properties.stacksTo(100)));
+	public static final RegistrySupplier<Item> MASK_WAND = registerRegular("mask_wand", properties -> new MaskWandItem(properties.stacksTo(100).rarity(Rarity.EPIC)));
 
 	public static final RegistrySupplier<Item> STABLE_FABRIC = registerRegular("stable_fabric", Item::new);
 
@@ -106,8 +106,6 @@ public final class ModItems {
 	public static final RegistrySupplier<Item> GARMENT_OF_REALITY_LEGGINGS = registerRegular("garment_of_reality_leggings", properties -> new ArmorItem(ModArmorMaterials.GARMENT_OF_REALITY, ArmorItem.Type.LEGGINGS, properties));
 
 	public static final RegistrySupplier<Item> GARMENT_OF_REALITY_BOOTS = registerRegular("garment_of_reality_boots", properties -> new ArmorItem(ModArmorMaterials.GARMENT_OF_REALITY, ArmorItem.Type.BOOTS, properties));
-
-	public static final RegistrySupplier<Item> PATHING_DEVICE = registerRegular("pathing_device", properties -> new PathingDeviceItem(properties.stacksTo(1)));
 
 	public static final Set<Item> DOOR_ITEMS = new HashSet<>();
 
